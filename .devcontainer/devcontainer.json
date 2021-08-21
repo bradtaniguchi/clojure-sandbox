@@ -1,0 +1,9 @@
+{
+  "name": "Clojure",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "extensions": ["betterthantomorrow.calva"],
+  "forwardPorts": [8080, 9630]
+}
